@@ -1,8 +1,21 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+## 정동원 · bubblecocoa
+
+서비스를 만들면서 마주한 문제와 그 과정에서 배운 것을 기록합니다.
+
+백엔드와 프론트엔드, 인증과 배포를 연결하는 개발 경험부터 개인 프로젝트와 새로운 기술을 공부한 내용까지 담으려 합니다.
+
+## 이곳에 쌓을 기록
+
+- **개발 경험** — 문제를 발견하고 원인을 좁혀 해결하는 과정
+- **설계와 선택** — 무엇을 선택했고, 왜 그렇게 판단했는지
+- **학습과 실험** — 직접 만들어 보며 이해한 기술
+- **AI와 개발** — 에이전트에게 맡긴 일과 사람이 검증한 부분
+
+회사 경험은 내부 코드와 비공개 정보를 제외하고, 접근 방식과 배운 점 중심으로 정리합니다.
+
+[GitHub · bubblecocoa](https://github.com/bubblecocoa)

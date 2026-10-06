@@ -1,0 +1,38 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* 프로필 이미지와 빈 원형 슬롯을 함께 제거합니다. */
+#avatar { display: none !important; }
+
+.setup-details {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--main-border-color);
+  border-radius: .6rem;
+}
+.setup-details > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+.setup-details[open] > summary { margin-bottom: 1.5rem; }
+
+p.image-caption {
+  margin-top: -.5rem;
+  margin-bottom: 1.5rem;
+  font-size: .75rem;
+  line-height: 1.4;
+  color: var(--text-muted-color);
+  text-align: center;
+}
