@@ -1,5 +1,8 @@
 ---
 title: "남는 맥북에서 Hermes Agent 운영하기 (2) — 설치와 Discord 연결"
+image:
+  path: /assets/img/post-covers/hermes-setup.png
+  alt: "설치와 Discord 연결"
 date: 2026-10-06 09:10:00 +0900
 categories: [AI와 개발, AI 에이전트]
 tags: [Hermes, macOS, Discord, ChatGPT, OAuth]

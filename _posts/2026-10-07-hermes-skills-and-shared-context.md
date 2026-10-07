@@ -1,5 +1,8 @@
 ---
 title: "Hermes의 스킬과 기억을 쌓고 함께 활용하기"
+image:
+  path: /assets/img/post-covers/hermes-shared-context.png
+  alt: "작업 경험을 재사용하고, 공통 맥락을 이어가기"
 date: 2026-10-07 10:00:00 +0900
 categories: [AI와 개발, AI 에이전트]
 tags: [Hermes, 스킬, 장기기억, Discord, 협업]

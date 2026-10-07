@@ -1,5 +1,8 @@
 ---
 title: "AI 작업을 Discord로 보고받게 된 이유"
+image:
+  path: /assets/img/post-covers/discord-reports.png
+  alt: "파일과 터미널을 살피다가, 대화에서 결과를 받기까지"
 date: 2026-10-07 09:50:00 +0900
 categories: [AI와 개발, AI 에이전트]
 tags: [Hermes, Discord, CLI, VS Code, cmux]
@@ -34,6 +37,9 @@ CLI를 직접 쓸 때는 작업 세션에 들어가 진행 상황을 살폈습�
 ## 파일도 대부분 Discord에서 받으면 충분했습니다
 
 큰 파일은 SFTP로 옮겨야 할 때가 있습니다. 그럴 때는 별도로 접속하고 전송해야 해서 귀찮습니다. 하지만 제가 주로 확인하는 HTML, XML, Markdown 파일과 각종 이미지는 Discord로 전달받는 것으로 충분했습니다. 도표, 생성형 이미지, 화면 캡처를 대화에서 보고, 필요한 파일은 첨부파일로 받으면 됐습니다.
+
+![주제별 대화에서 작업 보고와 HTML·MD·PNG 파일을 받는 모습을 표현한 예시](/assets/img/hermes-discord-experience/chat-report-and-attachments.webp)
+<p class="image-caption">AI 생성 이미지 · 실제 화면이 아닌 예시</p>
 
 외부 서비스로 보내는 내용은 신경 써야 합니다. Discord에 올린 메시지와 파일은 Discord가 처리하는 데이터에 포함됩니다.[^discord-privacy] 또 외부 LLM을 쓰는 구성에서는 모델에 입력하는 내용이 해당 제공사로 전달됩니다. 첨부파일 전부가 자동으로 LLM에 전달된다는 뜻은 아니며, 실제로 보내는 내용은 도구와 입력 방식에 따라 달라집니다. 보관 여부와 기간도 서비스와 설정에 따라 다릅니다.
 
