@@ -52,16 +52,16 @@ macOS에서는 **시스템 설정 → 배터리 → 옵션**에서 전원 어댑
 
 세부 설정은 Hermes에 맡기고, 제가 계속 사용하는 조건에 집중했습니다. 화면은 꺼 두되 맥북은 요청을 받을 수 있도록 깨어 있게 두는 것입니다.
 
-## 참고 자료
-
-[^gateway]: [Hermes Agent — Messaging Gateway](https://hermes-agent.nousresearch.com/docs/user-guide/messaging)
-[^cli]: [Hermes Agent — CLI Commands](https://hermes-agent.nousresearch.com/docs/reference/cli-commands)
-[^launchd]: [Apple — Creating Launch Daemons and Agents](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html)
-[^filevault]: [Apple — Automatically log in to your Mac](https://support.apple.com/en-us/102316)
-[^power]: [Apple — Set sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
-
 ## 이 시리즈의 다른 글
 
 - [1편 · 전체 구성과 선택 이유](/posts/hermes-on-an-unused-m1-macbook/)
 - [2편 · 설치와 Discord 연결](/posts/hermes-setup-and-discord/)
 - **부록 · 맥북을 켜 두고 사용할 때 — 현재 글**
+
+## 참고 자료
+
+[^gateway]: [Hermes Agent — Messaging Gateway](https://hermes-agent.nousresearch.com/docs/user-guide/messaging){: target="_blank" rel="noopener noreferrer" }
+[^cli]: [Hermes Agent — CLI Commands](https://hermes-agent.nousresearch.com/docs/reference/cli-commands){: target="_blank" rel="noopener noreferrer" }
+[^launchd]: [Apple — Creating Launch Daemons and Agents](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html){: target="_blank" rel="noopener noreferrer" }
+[^filevault]: [Apple — Automatically log in to your Mac](https://support.apple.com/en-us/102316){: target="_blank" rel="noopener noreferrer" }
+[^power]: [Apple — Set sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac){: target="_blank" rel="noopener noreferrer" }

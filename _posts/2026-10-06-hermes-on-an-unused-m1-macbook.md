@@ -37,25 +37,17 @@ GPT를 맥북에 내려받아 실행하는 구성은 아닙니다. 모델은 외
 
 주요 모델을 고를 때는 이미 쓰고 있는 구독을 연결할 수 있는지가 중요했습니다.
 
-Claude를 주요 모델로 선택하지 않은 이유는 Anthropic의 구독 사용 정책 때문입니다. Hermes 공식 문서에 따르면 Claude Max의 OAuth 연결은 추가 사용 크레딧을 소비하며, 기본 구독에 포함된 사용 한도를 쓰지 않습니다. Claude Pro는 해당 OAuth 경로를 지원하지 않습니다. API 키로 연결할 경우에도 구독과 별도로 사용량에 따라 과금됩니다.[1][2]
+Claude를 주요 모델로 선택하지 않은 이유는 Anthropic의 구독 사용 정책 때문입니다. Hermes 공식 문서에 따르면 Claude Max의 OAuth 연결은 추가 사용 크레딧을 소비하며, 기본 구독에 포함된 사용 한도를 쓰지 않습니다. Claude Pro는 해당 OAuth 경로를 지원하지 않습니다. API 키로 연결할 경우에도 구독과 별도로 사용량에 따라 과금됩니다.[^providers][^claude-login]
 
-Claude를 Hermes의 주요 모델로 직접 연결하려면 추가 사용 크레딧이나 별도 API 과금이 필요해, 저는 GPT를 선택했습니다.[1]
+Claude를 Hermes의 주요 모델로 직접 연결하려면 추가 사용 크레딧이나 별도 API 과금이 필요해, 저는 GPT를 선택했습니다.[^providers]
 
-Hermes에서 Claude Code CLI를 사용하는 skill도 제공합니다. 공식 Claude Code를 tmux 세션이나 `-p` 옵션으로 실행하는 방식입니다.[7] Claude Code에 구독 계정으로 로그인해서 쓰는 것과 Hermes의 주요 모델로 Claude를 직접 연결하는 것은 별개입니다.[3]
+Hermes에서 Claude Code CLI를 사용하는 skill도 제공합니다. 공식 Claude Code를 tmux 세션이나 `-p` 옵션으로 실행하는 방식입니다.[^claude-code-skill] Claude Code에 구독 계정으로 로그인해서 쓰는 것과 Hermes의 주요 모델로 Claude를 직접 연결하는 것은 별개입니다.[^claude-compliance]
 
-Hermes는 ChatGPT 구독의 OAuth 인증으로 OpenAI Codex 모델을 연결할 수 있습니다.[1][4] 저도 이 방식으로 연결했습니다. 별도 API 키를 발급받지 않고 구독 계정으로 연결할 수 있다는 점이 선택 이유였습니다.
+Hermes는 ChatGPT 구독의 OAuth 인증으로 OpenAI Codex 모델을 연결할 수 있습니다.[^providers][^codex-auth] 저도 이 방식으로 연결했습니다. 별도 API 키를 발급받지 않고 구독 계정으로 연결할 수 있다는 점이 선택 이유였습니다.
 
-OpenClaw 공식 문서에서도 OpenAI가 OpenClaw 같은 외부 도구와 워크플로에서 구독 OAuth 사용을 지원한다고 설명합니다.[5]
+OpenClaw 공식 문서에서도 OpenAI가 OpenClaw 같은 외부 도구와 워크플로에서 구독 OAuth 사용을 지원한다고 설명합니다.[^openclaw-auth]
 
-OpenClaw 제작자 Peter Steinberger는 OpenAI 합류를 발표하기도 했습니다.[6]
-
-[1]: https://hermes-agent.nousresearch.com/docs/integrations/providers
-[2]: https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account
-[3]: https://code.claude.com/docs/en/legal-and-compliance
-[4]: https://developers.openai.com/codex/auth
-[5]: https://github.com/openclaw/openclaw/blob/main/docs/providers/openai.md
-[6]: https://steipete.me/posts/2026/openclaw
-[7]: https://raw.githubusercontent.com/NousResearch/hermes-agent/main/skills/autonomous-ai-agents/claude-code/SKILL.md
+OpenClaw 제작자 Peter Steinberger는 OpenAI 합류를 발표하기도 했습니다.[^openclaw-founder]
 
 ## 여러 메신저 중 Discord를 선택한 이유
 
@@ -94,14 +86,22 @@ Android 개발 환경은 다른 운영체제에도 구성할 수 있지만, iOS 
 
 다음 글에서는 ChatGPT 구독 연결과 Discord 봇 설정을 다룹니다. 맥북을 계속 켜 두고 사용하면서 챙긴 서비스와 전원 설정은 부록에 따로 모았습니다.
 
-## 참고
-
-- [Hermes Agent 공식 문서](https://hermes-agent.nousresearch.com/docs/)
-- [Messaging Gateway](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/)
-- [Discord 연결 안내](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord/)
-
 ## 이 시리즈의 다른 글
 
 - **1편 · 전체 구성과 선택 이유 — 현재 글**
 - [2편 · 설치와 Discord 연결](/posts/hermes-setup-and-discord/)
 - [부록 · 맥북을 켜 두고 사용할 때](/posts/hermes-gateway-macos-operation/)
+
+## 참고 자료
+
+- [Hermes Agent 공식 문서](https://hermes-agent.nousresearch.com/docs/){: target="_blank" rel="noopener noreferrer" }
+- [Messaging Gateway](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/){: target="_blank" rel="noopener noreferrer" }
+- [Discord 연결 안내](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord/){: target="_blank" rel="noopener noreferrer" }
+
+[^providers]: [Hermes Agent — LLM and Model Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers){: target="_blank" rel="noopener noreferrer" }
+[^claude-login]: [Claude — Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account){: target="_blank" rel="noopener noreferrer" }
+[^claude-compliance]: [Claude Code — Legal and compliance](https://code.claude.com/docs/en/legal-and-compliance){: target="_blank" rel="noopener noreferrer" }
+[^codex-auth]: [OpenAI Codex — Authentication](https://developers.openai.com/codex/auth){: target="_blank" rel="noopener noreferrer" }
+[^openclaw-auth]: [OpenClaw — OpenAI provider](https://github.com/openclaw/openclaw/blob/main/docs/providers/openai.md){: target="_blank" rel="noopener noreferrer" }
+[^openclaw-founder]: [Peter Steinberger — OpenClaw](https://steipete.me/posts/2026/openclaw){: target="_blank" rel="noopener noreferrer" }
+[^claude-code-skill]: [Hermes — Claude Code skill](https://raw.githubusercontent.com/NousResearch/hermes-agent/main/skills/autonomous-ai-agents/claude-code/SKILL.md){: target="_blank" rel="noopener noreferrer" }

@@ -207,17 +207,17 @@ Gateway는 터미널에서 계속 실행되며 `Ctrl+C`로 종료할 수 있습�
 
 Discord에서 응답을 받으면 맥북 앞에 앉지 않고도 Hermes에 작업을 요청할 수 있습니다. 이것으로 설치와 Discord 연결 과정은 마칩니다. 맥북을 계속 켜 두고 사용하기 위한 서비스와 전원 설정은 부록에 정리했습니다.
 
-## 참고 자료
-
-공식 문서는 2026년 10월 6일에 확인했습니다. 설치와 설정 화면이 달라지면 현재 설치된 버전의 `--help`와 아래 문서를 함께 참고할 수 있습니다.
-
-[^installation]: [Hermes Agent — Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
-[^providers]: [Hermes Agent — LLM and Model Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers)
-[^models]: [Hermes Agent — Configuring Models](https://hermes-agent.nousresearch.com/docs/user-guide/configuring-models)
-[^discord]: [Hermes Agent — Discord](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord)
-
 ## 이 시리즈의 다른 글
 
 - [1편 · 전체 구성과 선택 이유](/posts/hermes-on-an-unused-m1-macbook/)
 - **2편 · 설치와 Discord 연결 — 현재 글**
 - [부록 · 맥북을 켜 두고 사용할 때](/posts/hermes-gateway-macos-operation/)
+
+## 참고 자료
+
+공식 문서는 2026년 10월 6일에 확인했습니다. 설치와 설정 화면이 달라지면 현재 설치된 버전의 `--help`와 아래 문서를 함께 참고할 수 있습니다.
+
+[^installation]: [Hermes Agent — Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation){: target="_blank" rel="noopener noreferrer" }
+[^providers]: [Hermes Agent — LLM and Model Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers){: target="_blank" rel="noopener noreferrer" }
+[^models]: [Hermes Agent — Configuring Models](https://hermes-agent.nousresearch.com/docs/user-guide/configuring-models){: target="_blank" rel="noopener noreferrer" }
+[^discord]: [Hermes Agent — Discord](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord){: target="_blank" rel="noopener noreferrer" }
