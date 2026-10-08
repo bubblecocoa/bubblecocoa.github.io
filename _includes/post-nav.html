@@ -1,0 +1,44 @@
+{% assign nav_previous = nil %}
+{% assign nav_next = nil %}
+{% if page.series %}
+  {% assign series_posts = site.posts | where: 'series', page.series | sort: 'series_order' %}
+  {% assign previous_candidate = nil %}
+  {% assign current_found = false %}
+  {% for series_post in series_posts %}
+    {% if current_found %}
+      {% assign nav_next = series_post %}
+      {% break %}
+    {% endif %}
+    {% if series_post.url == page.url %}
+      {% assign nav_previous = previous_candidate %}
+      {% assign current_found = true %}
+    {% endif %}
+    {% assign previous_candidate = series_post %}
+  {% endfor %}
+{% else %}
+  {% assign nav_previous = page.previous %}
+  {% assign nav_next = page.next %}
+{% endif %}
+{% if nav_previous or nav_next %}
+<section class="series-navigation series-navigation-{{ include.position | default: 'bottom' }}" aria-label="{% if page.series %}시리즈{% else %}글{% endif %} 탐색">
+  {% if page.series %}<div class="series-navigation-heading">{{ page.series | escape }}</div>{% endif %}
+  <nav class="series-navigation-grid" aria-label="이전 글과 다음 글">
+    {% if nav_previous %}
+      <a class="series-navigation-card" href="{{ nav_previous.url | relative_url }}" rel="prev">
+        <span class="series-navigation-label">← 이전 글</span>
+        <span class="series-navigation-title">{{ nav_previous.title | escape }}</span>
+      </a>
+    {% else %}
+      <div class="series-navigation-empty"><span>시리즈의 첫 글입니다</span></div>
+    {% endif %}
+    {% if nav_next %}
+      <a class="series-navigation-card series-navigation-next" href="{{ nav_next.url | relative_url }}" rel="next">
+        <span class="series-navigation-label">다음 글 →</span>
+        <span class="series-navigation-title">{{ nav_next.title | escape }}</span>
+      </a>
+    {% else %}
+      <div class="series-navigation-empty series-navigation-next"><span>시리즈의 마지막 글입니다</span></div>
+    {% endif %}
+  </nav>
+</section>
+{% endif %}

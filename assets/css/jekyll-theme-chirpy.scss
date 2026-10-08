@@ -15,6 +15,25 @@
 /* 프로필 이미지와 빈 원형 슬롯을 함께 제거합니다. */
 #avatar { display: none !important; }
 
+.series-navigation { margin: 1.5rem 0 2rem; }
+.series-navigation-heading { font-size: .8rem; color: var(--text-muted-color); margin-bottom: .6rem; }
+.series-navigation-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+.series-navigation-card, .series-navigation-empty {
+  display: flex; flex-direction: column; justify-content: center; gap: .35rem;
+  min-width: 0; padding: .9rem 1rem; border: 1px solid var(--main-border-color);
+  border-radius: .6rem; font-size: .9rem; line-height: 1.5;
+}
+.series-navigation-card { color: var(--heading-color); text-decoration: none; border-bottom: 1px solid var(--main-border-color) !important; }
+.series-navigation-card:hover { background: var(--button-bg); }
+.series-navigation-label { font-size: .75rem; color: var(--text-muted-color); }
+.series-navigation-title { overflow-wrap: anywhere; }
+.series-navigation-next { text-align: right; }
+.series-navigation-empty { color: var(--text-muted-color); font-size: .75rem; border-style: dashed; }
+@media (max-width: 575px) {
+  .series-navigation-grid { grid-template-columns: 1fr; }
+  .series-navigation-empty { display: none; }
+}
+
 .setup-details {
   margin: 1.5rem 0;
   padding: 1rem 1.25rem;

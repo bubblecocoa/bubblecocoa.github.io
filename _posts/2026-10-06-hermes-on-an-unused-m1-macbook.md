@@ -4,6 +4,8 @@ image:
   path: /assets/img/post-covers/hermes-overview.png
   alt: "구성과 선택 이유"
 date: 2026-10-06 09:00:00 +0900
+series: "남는 맥북에서 Hermes Agent 운영하기"
+series_order: 1
 categories: [AI와 개발, AI 에이전트]
 tags: [Hermes, macOS, Discord, ChatGPT]
 mermaid: false

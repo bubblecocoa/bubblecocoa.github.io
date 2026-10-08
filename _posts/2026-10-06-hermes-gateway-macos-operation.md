@@ -4,6 +4,8 @@ image:
   path: /assets/img/post-covers/hermes-operation.png
   alt: "맥북을 켜 두고 사용할 때"
 date: 2026-10-06 09:20:00 +0900
+series: "남는 맥북에서 Hermes Agent 운영하기"
+series_order: 3
 categories: [AI와 개발, AI 에이전트]
 tags: [Hermes, macOS, Discord, launchd]
 description: "맥북으로 Hermes를 운영하며 따로 챙긴 서비스와 전원 설정"

@@ -4,6 +4,8 @@ image:
   path: /assets/img/post-covers/discord-reports.png
   alt: "파일과 터미널을 살피다가, 대화에서 결과를 받기까지"
 date: 2026-10-07 09:50:00 +0900
+series: "Hermes 활용 경험"
+series_order: 1
 categories: [AI와 개발, AI 에이전트]
 tags: [Hermes, Discord, CLI, VS Code, cmux]
 mermaid: false
