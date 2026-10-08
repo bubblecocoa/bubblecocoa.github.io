@@ -19,26 +19,37 @@
   {% assign nav_previous = page.previous %}
   {% assign nav_next = page.next %}
 {% endif %}
-{% if nav_previous or nav_next %}
-<section class="series-navigation series-navigation-{{ include.position | default: 'bottom' }}" aria-label="{% if page.series %}시리즈{% else %}글{% endif %} 탐색">
-  {% if page.series %}<div class="series-navigation-heading">{{ page.series | escape }}</div>{% endif %}
-  <nav class="series-navigation-grid" aria-label="이전 글과 다음 글">
-    {% if nav_previous %}
-      <a class="series-navigation-card" href="{{ nav_previous.url | relative_url }}" rel="prev">
-        <span class="series-navigation-label">← 이전 글</span>
-        <span class="series-navigation-title">{{ nav_previous.title | escape }}</span>
-      </a>
-    {% else %}
-      <div class="series-navigation-empty"><span>시리즈의 첫 글입니다</span></div>
-    {% endif %}
-    {% if nav_next %}
-      <a class="series-navigation-card series-navigation-next" href="{{ nav_next.url | relative_url }}" rel="next">
-        <span class="series-navigation-label">다음 글 →</span>
-        <span class="series-navigation-title">{{ nav_next.title | escape }}</span>
-      </a>
-    {% else %}
-      <div class="series-navigation-empty series-navigation-next"><span>시리즈의 마지막 글입니다</span></div>
-    {% endif %}
-  </nav>
-</section>
-{% endif %}
+<!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" data-nav-position="{{ include.position | default: 'bottom' }}" aria-label="Post Navigation">
+  {% assign previous = site.data.locales[include.lang].post.button.previous %}
+  {% assign next = site.data.locales[include.lang].post.button.next %}
+
+  {% if nav_previous.url %}
+    <a
+      href="{{ site.baseurl }}{{ nav_previous.url }}"
+      class="btn btn-outline-primary"
+      aria-label="{{ previous }}"
+    >
+      <p>{{ nav_previous.title }}</p>
+    </a>
+  {% else %}
+    <div class="btn btn-outline-primary disabled" aria-label="{{ previous }}">
+      <p>-</p>
+    </div>
+  {% endif %}
+
+  {% if nav_next.url %}
+    <a
+      href="{{ site.baseurl }}{{nav_next.url}}"
+      class="btn btn-outline-primary"
+      aria-label="{{ next }}"
+    >
+      <p>{{ nav_next.title }}</p>
+    </a>
+  {% else %}
+    <div class="btn btn-outline-primary disabled" aria-label="{{ next }}">
+      <p>-</p>
+    </div>
+  {% endif %}
+</nav>
