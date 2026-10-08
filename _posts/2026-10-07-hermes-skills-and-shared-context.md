@@ -31,8 +31,6 @@ Hermes에서 편하게 느끼는 부분은 스킬과 장기 기억을 에이전�
 
 ![확인한 작업 경험을 스킬과 장기 기억에 정리해 다음 작업에 활용하는 흐름](/assets/img/hermes-discord-experience/skills-reuse.svg)
 
-[그림 크게 보기](/assets/img/hermes-discord-experience/skills-reuse.svg){: target="_blank" rel="noopener noreferrer" } · [Excalidraw 원본](/assets/img/hermes-discord-experience/skills-reuse.excalidraw){: download="skills-reuse.excalidraw" }
-
 관리 범위는 설정에 따라 달라집니다. 저장·수정에 사용자 승인을 요구할 수도 있고, 스킬을 주기적으로 정리하는 Curator도 있습니다. 기본 정리는 오래 쓰지 않은 관리 대상 스킬을 분류·보관하는 방식이며, LLM이 내용을 재검토해 겹치는 스킬을 통합하는 기능은 별도로 켜야 합니다.[^skills][^memory][^curator] 모든 문서가 자동으로 정확해지는 것은 아니므로, 중요한 기준이나 잘못 저장된 내용은 확인하고 정정해야 합니다.
 
 ## 하나의 에이전트를 함께 쓰는 경우
@@ -67,8 +65,6 @@ Hermes에서 편하게 느끼는 부분은 스킬과 장기 기억을 에이전�
 
 
 ![공통 에이전트와 저장소·지식베이스를 활용하되 작업별 worktree를 나누는 구상](/assets/img/hermes-discord-experience/shared-worktrees.svg)
-
-[그림 크게 보기](/assets/img/hermes-discord-experience/shared-worktrees.svg){: target="_blank" rel="noopener noreferrer" } · [Excalidraw 원본](/assets/img/hermes-discord-experience/shared-worktrees.excalidraw){: download="shared-worktrees.excalidraw" }
 
 회의록, 결정 사항, 작업 진행 상황을 공통 경로에 정리해두면, 내가 직접 한 일이 아니어도 에이전트가 그 자료를 확인해 설명할 수 있습니다. 팀원이 어디까지 작업했는지 전달받는 데도 같은 지식베이스를 활용할 수 있습니다. 다만 기록이 갱신돼 있어야 하고, 에이전트가 필요한 자료를 실제로 읽어야 합니다. 모든 대화가 자동으로 팀 지식이 되는 것은 아닙니다.
 
