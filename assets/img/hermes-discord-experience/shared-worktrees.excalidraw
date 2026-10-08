@@ -8,7 +8,7 @@
       "type": "text",
       "x": 55,
       "y": 25,
-      "width": 407.8739929199219,
+      "width": 451.10986328125,
       "height": 34.5,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -27,12 +27,12 @@
       "versionNonce": 1033775525,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false,
       "text": "공통 작업 기반과 작업별 worktree",
       "fontSize": 30,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
@@ -71,7 +71,7 @@
           "id": "K_IWX7NbuNUOCgVhQwcBE"
         }
       ],
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false
     },
@@ -106,7 +106,7 @@
           "id": "OHceTp1kRrRS_gEtj_PtJ"
         }
       ],
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false
     },
@@ -115,8 +115,8 @@
       "type": "arrow",
       "x": 195,
       "y": 190,
-      "width": 100,
-      "height": 48,
+      "width": 99,
+      "height": 47,
       "angle": 0,
       "strokeColor": "#52667c",
       "backgroundColor": "transparent",
@@ -134,7 +134,7 @@
       "versionNonce": 474829259,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false,
       "points": [
@@ -143,8 +143,8 @@
           0.5
         ],
         [
-          99.5,
-          47.5
+          99,
+          47
         ]
       ],
       "lastCommittedPoint": null,
@@ -159,8 +159,8 @@
       "type": "arrow",
       "x": 585,
       "y": 190,
-      "width": 100,
-      "height": 48,
+      "width": 99,
+      "height": 47,
       "angle": 0,
       "strokeColor": "#52667c",
       "backgroundColor": "transparent",
@@ -178,7 +178,7 @@
       "versionNonce": 390186085,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false,
       "points": [
@@ -187,8 +187,8 @@
           0.5
         ],
         [
-          -99.5,
-          47.5
+          -99,
+          47
         ]
       ],
       "lastCommittedPoint": null,
@@ -229,7 +229,7 @@
           "id": "-_0o5YgM2ottnoJj77Wgg"
         }
       ],
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false
     },
@@ -239,7 +239,7 @@
       "x": 390,
       "y": 343,
       "width": 0,
-      "height": 57,
+      "height": 56,
       "angle": 0,
       "strokeColor": "#52667c",
       "backgroundColor": "transparent",
@@ -257,7 +257,7 @@
       "versionNonce": 498462661,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false,
       "points": [
@@ -267,7 +267,7 @@
         ],
         [
           0,
-          56.5
+          56
         ]
       ],
       "lastCommittedPoint": null,
@@ -308,7 +308,7 @@
           "id": "aJqTlfo5LYmzU5l7hlgIv"
         }
       ],
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false
     },
@@ -317,8 +317,8 @@
       "type": "arrow",
       "x": 265,
       "y": 555,
-      "width": 70,
-      "height": 55,
+      "width": 69,
+      "height": 54,
       "angle": 0,
       "strokeColor": "#52667c",
       "backgroundColor": "transparent",
@@ -336,7 +336,7 @@
       "versionNonce": 1330491173,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false,
       "points": [
@@ -345,8 +345,8 @@
           0.5
         ],
         [
-          -69.5,
-          54.5
+          -69,
+          54
         ]
       ],
       "lastCommittedPoint": null,
@@ -361,8 +361,8 @@
       "type": "arrow",
       "x": 515,
       "y": 555,
-      "width": 70,
-      "height": 55,
+      "width": 69,
+      "height": 54,
       "angle": 0,
       "strokeColor": "#52667c",
       "backgroundColor": "transparent",
@@ -380,7 +380,7 @@
       "versionNonce": 1493434795,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false,
       "points": [
@@ -389,8 +389,8 @@
           0.5
         ],
         [
-          69.5,
-          54.5
+          69,
+          54
         ]
       ],
       "lastCommittedPoint": null,
@@ -431,7 +431,7 @@
           "id": "ig-NoYfGSk9V5VHTeu0df"
         }
       ],
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false
     },
@@ -466,7 +466,7 @@
           "id": "BxhlQ5x3UKwvw1PACZyU_"
         }
       ],
-      "updated": 1791352866721,
+      "updated": 1791447846352,
       "link": null,
       "locked": false
     },
@@ -475,7 +475,7 @@
       "type": "text",
       "x": 65,
       "y": 775,
-      "width": 334.3484191894531,
+      "width": 366.7838134765625,
       "height": 25.299999999999997,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -494,12 +494,12 @@
       "versionNonce": 65923557,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846354,
       "link": null,
       "locked": false,
       "text": "활용 구상 · 실제 구축 화면이 아닙니다.",
       "fontSize": 22,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
@@ -512,7 +512,7 @@
       "type": "text",
       "x": 65,
       "y": 813,
-      "width": 416.4299011230469,
+      "width": 444.7738037109375,
       "height": 25.299999999999997,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -531,12 +531,12 @@
       "versionNonce": 1772737259,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846355,
       "link": null,
       "locked": false,
       "text": "변경사항 통합에는 merge와 검증이 필요합니다.",
       "fontSize": 22,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
@@ -549,7 +549,7 @@
       "type": "text",
       "x": 65,
       "y": 851,
-      "width": 469.68450927734375,
+      "width": 512.841796875,
       "height": 25.299999999999997,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -568,12 +568,12 @@
       "versionNonce": 1019307333,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846355,
       "link": null,
       "locked": false,
       "text": "대화·worktree 분리는 사용자별 보안 격리가 아닙니다.",
       "fontSize": 22,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
@@ -584,9 +584,9 @@
     {
       "id": "K_IWX7NbuNUOCgVhQwcBE",
       "type": "text",
-      "x": 157.55247497558594,
+      "x": 154.09201049804688,
       "y": 123.9,
-      "width": 74.89505004882812,
+      "width": 81.81597900390625,
       "height": 32.199999999999996,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -605,12 +605,12 @@
       "versionNonce": 1900763467,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846357,
       "link": null,
       "locked": false,
       "text": "요청 A",
       "fontSize": 28,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "Rj-rYjSMsxWo7OnEPnO4c",
@@ -621,9 +621,9 @@
     {
       "id": "OHceTp1kRrRS_gEtj_PtJ",
       "type": "text",
-      "x": 547.5524749755859,
+      "x": 542.9020080566406,
       "y": 123.9,
-      "width": 74.89505004882812,
+      "width": 84.19598388671875,
       "height": 32.199999999999996,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -642,12 +642,12 @@
       "versionNonce": 514454757,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846357,
       "link": null,
       "locked": false,
       "text": "요청 B",
       "fontSize": 28,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "FtovDWi_eA3vXmGfaVNcC",
@@ -658,9 +658,9 @@
     {
       "id": "-_0o5YgM2ottnoJj77Wgg",
       "type": "text",
-      "x": 237.3418426513672,
+      "x": 222.84005737304688,
       "y": 276.4,
-      "width": 305.3163146972656,
+      "width": 334.31988525390625,
       "height": 32.199999999999996,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -679,12 +679,12 @@
       "versionNonce": 1892153323,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846357,
       "link": null,
       "locked": false,
       "text": "공통 에이전트 · 요청별 대화",
       "fontSize": 28,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "b9YY5K6CUexLP45ixeX_M",
@@ -695,9 +695,9 @@
     {
       "id": "aJqTlfo5LYmzU5l7hlgIv",
       "type": "text",
-      "x": 229.12149047851562,
+      "x": 218.78004455566406,
       "y": 447.8,
-      "width": 321.75701904296875,
+      "width": 342.4399108886719,
       "height": 64.39999999999999,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -716,12 +716,12 @@
       "versionNonce": 1506021445,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846357,
       "link": null,
       "locked": false,
       "text": "공통 저장소 · 지식베이스\n커밋·자료·저장한 절차를 조회",
       "fontSize": 28,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "AQCXiyfYWAia604N5G2OZ",
@@ -732,9 +732,9 @@
     {
       "id": "ig-NoYfGSk9V5VHTeu0df",
       "type": "text",
-      "x": 81.44391632080078,
+      "x": 70.30203247070312,
       "y": 642.8,
-      "width": 227.11216735839844,
+      "width": 249.39593505859375,
       "height": 64.39999999999999,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -753,12 +753,12 @@
       "versionNonce": 544719499,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846358,
       "link": null,
       "locked": false,
       "text": "worktree A\n브랜치 · 작업 파일 A",
       "fontSize": 28,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "9-4x_GxxgRcZE_Dw6Vxlw",
@@ -769,9 +769,9 @@
     {
       "id": "BxhlQ5x3UKwvw1PACZyU_",
       "type": "text",
-      "x": 471.4439163208008,
+      "x": 459.1120300292969,
       "y": 642.8,
-      "width": 227.11216735839844,
+      "width": 251.77593994140625,
       "height": 64.39999999999999,
       "angle": 0,
       "strokeColor": "#26364b",
@@ -790,12 +790,12 @@
       "versionNonce": 365150117,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791352866721,
+      "updated": 1791447846358,
       "link": null,
       "locked": false,
       "text": "worktree B\n브랜치 · 작업 파일 B",
       "fontSize": 28,
-      "fontFamily": 2,
+      "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "gbtJ3U_1KlPJ2DNTDqFti",
@@ -805,10 +805,7 @@
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#ffffff",
-    "exportBackground": true,
-    "exportWithDarkMode": false,
-    "exportEmbedScene": false
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }
