@@ -27,7 +27,7 @@
       "versionNonce": 711913835,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false,
       "text": "작업 경험을 다음 작업으로 잇기",
@@ -71,7 +71,7 @@
           "id": "gM10ELsOvhvYBn8HBy3HR"
         }
       ],
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false
     },
@@ -99,7 +99,7 @@
       "versionNonce": 1308855307,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false,
       "points": [
@@ -150,7 +150,7 @@
           "id": "vRI3yOYU0l-tmXjgdzIs8"
         }
       ],
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false
     },
@@ -178,7 +178,7 @@
       "versionNonce": 1433129643,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false,
       "points": [
@@ -222,7 +222,7 @@
       "versionNonce": 1710244229,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false,
       "points": [
@@ -273,7 +273,7 @@
           "id": "0X2FvT6NUckjJRyBzGW4m"
         }
       ],
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false
     },
@@ -308,7 +308,7 @@
           "id": "BGMVoiIaenP0YIIzAohML"
         }
       ],
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false
     },
@@ -336,7 +336,7 @@
       "versionNonce": 420570091,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false,
       "points": [
@@ -380,7 +380,7 @@
       "versionNonce": 1175938117,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false,
       "points": [
@@ -431,7 +431,7 @@
           "id": "poYPfmemFt8R4tvHYdxrQ"
         }
       ],
-      "updated": 1791447844869,
+      "updated": 1791448202297,
       "link": null,
       "locked": false
     },
@@ -459,7 +459,7 @@
       "versionNonce": 1150063525,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844871,
+      "updated": 1791448202298,
       "link": null,
       "locked": false,
       "text": "스킬은 필요할 때 불러오고, 기억은 새 세션에서 읽습니다.",
@@ -496,7 +496,7 @@
       "versionNonce": 116630827,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844871,
+      "updated": 1791448202299,
       "link": null,
       "locked": false,
       "text": "기록 재사용이지 모델 재훈련·즉시 동기화는 아닙니다.",
@@ -533,7 +533,7 @@
       "versionNonce": 59036645,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844873,
+      "updated": 1791448202301,
       "link": null,
       "locked": false,
       "text": "작업 수행 · 결과 확인",
@@ -570,7 +570,7 @@
       "versionNonce": 47089899,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844874,
+      "updated": 1791448202301,
       "link": null,
       "locked": false,
       "text": "확인한 절차와 정정을 추리기",
@@ -607,7 +607,7 @@
       "versionNonce": 1038815045,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844874,
+      "updated": 1791448202301,
       "link": null,
       "locked": false,
       "text": "스킬\n방법 · 도구 · 해결 절차",
@@ -644,7 +644,7 @@
       "versionNonce": 897856395,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844875,
+      "updated": 1791448202302,
       "link": null,
       "locked": false,
       "text": "장기 기억\n사용자 · 환경 · 기준",
@@ -681,7 +681,7 @@
       "versionNonce": 2058542757,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447844875,
+      "updated": 1791448202302,
       "link": null,
       "locked": false,
       "text": "다음 작업에 필요한 내용 활용",

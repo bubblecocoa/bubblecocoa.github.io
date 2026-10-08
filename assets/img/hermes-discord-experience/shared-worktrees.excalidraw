@@ -27,7 +27,7 @@
       "versionNonce": 1033775525,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false,
       "text": "공통 작업 기반과 작업별 worktree",
@@ -71,7 +71,7 @@
           "id": "K_IWX7NbuNUOCgVhQwcBE"
         }
       ],
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false
     },
@@ -106,7 +106,7 @@
           "id": "OHceTp1kRrRS_gEtj_PtJ"
         }
       ],
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false
     },
@@ -134,7 +134,7 @@
       "versionNonce": 474829259,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false,
       "points": [
@@ -178,7 +178,7 @@
       "versionNonce": 390186085,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false,
       "points": [
@@ -229,7 +229,7 @@
           "id": "-_0o5YgM2ottnoJj77Wgg"
         }
       ],
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false
     },
@@ -257,7 +257,7 @@
       "versionNonce": 498462661,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false,
       "points": [
@@ -308,7 +308,7 @@
           "id": "aJqTlfo5LYmzU5l7hlgIv"
         }
       ],
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false
     },
@@ -336,7 +336,7 @@
       "versionNonce": 1330491173,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false,
       "points": [
@@ -380,7 +380,7 @@
       "versionNonce": 1493434795,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false,
       "points": [
@@ -431,7 +431,7 @@
           "id": "ig-NoYfGSk9V5VHTeu0df"
         }
       ],
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false
     },
@@ -466,7 +466,7 @@
           "id": "BxhlQ5x3UKwvw1PACZyU_"
         }
       ],
-      "updated": 1791447846352,
+      "updated": 1791448203869,
       "link": null,
       "locked": false
     },
@@ -494,7 +494,7 @@
       "versionNonce": 65923557,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846354,
+      "updated": 1791448203870,
       "link": null,
       "locked": false,
       "text": "활용 구상 · 실제 구축 화면이 아닙니다.",
@@ -531,7 +531,7 @@
       "versionNonce": 1772737259,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846355,
+      "updated": 1791448203870,
       "link": null,
       "locked": false,
       "text": "변경사항 통합에는 merge와 검증이 필요합니다.",
@@ -568,7 +568,7 @@
       "versionNonce": 1019307333,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846355,
+      "updated": 1791448203870,
       "link": null,
       "locked": false,
       "text": "대화·worktree 분리는 사용자별 보안 격리가 아닙니다.",
@@ -605,7 +605,7 @@
       "versionNonce": 1900763467,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846357,
+      "updated": 1791448203871,
       "link": null,
       "locked": false,
       "text": "요청 A",
@@ -642,7 +642,7 @@
       "versionNonce": 514454757,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846357,
+      "updated": 1791448203872,
       "link": null,
       "locked": false,
       "text": "요청 B",
@@ -679,7 +679,7 @@
       "versionNonce": 1892153323,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846357,
+      "updated": 1791448203872,
       "link": null,
       "locked": false,
       "text": "공통 에이전트 · 요청별 대화",
@@ -716,7 +716,7 @@
       "versionNonce": 1506021445,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846357,
+      "updated": 1791448203872,
       "link": null,
       "locked": false,
       "text": "공통 저장소 · 지식베이스\n커밋·자료·저장한 절차를 조회",
@@ -753,7 +753,7 @@
       "versionNonce": 544719499,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846358,
+      "updated": 1791448203872,
       "link": null,
       "locked": false,
       "text": "worktree A\n브랜치 · 작업 파일 A",
@@ -790,7 +790,7 @@
       "versionNonce": 365150117,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447846358,
+      "updated": 1791448203872,
       "link": null,
       "locked": false,
       "text": "worktree B\n브랜치 · 작업 파일 B",

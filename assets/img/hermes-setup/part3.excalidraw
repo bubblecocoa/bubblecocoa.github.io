@@ -6,8 +6,8 @@
     {
       "id": "title",
       "type": "text",
-      "x": -155.1699676513672,
-      "y": 1.25,
+      "x": 354.8300323486328,
+      "y": 26.25,
       "width": 410.3399353027344,
       "height": 37.5,
       "angle": 0,
@@ -24,10 +24,10 @@
       "roundness": null,
       "seed": 100,
       "version": 2,
-      "versionNonce": 746178307,
+      "versionNonce": 594103542,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "text": "부록 · 맥북을 켜 두고 사용할 때",
@@ -43,8 +43,8 @@
     {
       "id": "subtitle",
       "type": "text",
-      "x": -200.9378662109375,
-      "y": 65.75,
+      "x": 309.0621337890625,
+      "y": 83.75,
       "width": 501.875732421875,
       "height": 22.5,
       "angle": 0,
@@ -61,10 +61,10 @@
       "roundness": null,
       "seed": 101,
       "version": 2,
-      "versionNonce": 1177312941,
+      "versionNonce": 475440490,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "text": "사용자 서비스 · 로그인 세션 · 전원 · 네트워크를 함께 확인합니다.",
@@ -98,10 +98,10 @@
       "roundness": null,
       "seed": 102,
       "version": 2,
-      "versionNonce": 1213197987,
+      "versionNonce": 1977630262,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "points": [
@@ -142,10 +142,10 @@
       "roundness": null,
       "seed": 103,
       "version": 2,
-      "versionNonce": 400949517,
+      "versionNonce": 99772458,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "points": [
@@ -186,10 +186,10 @@
       "roundness": null,
       "seed": 104,
       "version": 2,
-      "versionNonce": 1111499331,
+      "versionNonce": 1457981302,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "points": [
@@ -232,7 +232,7 @@
       },
       "seed": 105,
       "version": 2,
-      "versionNonce": 452745069,
+      "versionNonce": 881316586,
       "isDeleted": false,
       "boundElements": [
         {
@@ -240,7 +240,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false
     },
@@ -265,10 +265,10 @@
       "roundness": null,
       "seed": 106,
       "version": 2,
-      "versionNonce": 1663623651,
+      "versionNonce": 381855926,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "text": "사용자 로그인 · 잠금 해제\nLaunchAgent가 실행될 세션 준비",
@@ -304,7 +304,7 @@
       },
       "seed": 107,
       "version": 2,
-      "versionNonce": 1773724109,
+      "versionNonce": 715253162,
       "isDeleted": false,
       "boundElements": [
         {
@@ -312,7 +312,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false
     },
@@ -337,10 +337,10 @@
       "roundness": null,
       "seed": 108,
       "version": 2,
-      "versionNonce": 1410903427,
+      "versionNonce": 890774006,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "text": "launchd 사용자 서비스\nHermes Gateway 시작과 관리",
@@ -376,7 +376,7 @@
       },
       "seed": 109,
       "version": 2,
-      "versionNonce": 422912045,
+      "versionNonce": 1634443370,
       "isDeleted": false,
       "boundElements": [
         {
@@ -384,7 +384,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false
     },
@@ -409,10 +409,10 @@
       "roundness": null,
       "seed": 110,
       "version": 2,
-      "versionNonce": 407766307,
+      "versionNonce": 1961653046,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "text": "맥북 깨어 있음 + 네트워크 연결\n화면이 꺼져도 작업 실행 가능",
@@ -448,7 +448,7 @@
       },
       "seed": 111,
       "version": 2,
-      "versionNonce": 1599771277,
+      "versionNonce": 1957692202,
       "isDeleted": false,
       "boundElements": [
         {
@@ -456,7 +456,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false
     },
@@ -481,10 +481,10 @@
       "roundness": null,
       "seed": 112,
       "version": 2,
-      "versionNonce": 1194813635,
+      "versionNonce": 1889836150,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "text": "Discord 요청 처리\n상태 · 인증 · 로그 확인",
@@ -520,7 +520,7 @@
       },
       "seed": 113,
       "version": 2,
-      "versionNonce": 2028124397,
+      "versionNonce": 1322913258,
       "isDeleted": false,
       "boundElements": [
         {
@@ -528,7 +528,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false
     },
@@ -553,10 +553,10 @@
       "roundness": null,
       "seed": 114,
       "version": 2,
-      "versionNonce": 108222563,
+      "versionNonce": 772119990,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "text": "디스플레이 꺼짐\n화면만 꺼지는 상태",
@@ -592,7 +592,7 @@
       },
       "seed": 115,
       "version": 2,
-      "versionNonce": 1331106637,
+      "versionNonce": 1425326250,
       "isDeleted": false,
       "boundElements": [
         {
@@ -600,7 +600,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false
     },
@@ -625,10 +625,10 @@
       "roundness": null,
       "seed": 116,
       "version": 2,
-      "versionNonce": 1137726467,
+      "versionNonce": 842299126,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "text": "시스템 절전\n요청 처리가 중단될 수 있음",
@@ -644,8 +644,8 @@
     {
       "id": "note0",
       "type": "text",
-      "x": -162.43289184570312,
-      "y": 688.75,
+      "x": 317.5671081542969,
+      "y": 711.25,
       "width": 484.86578369140625,
       "height": 22.5,
       "angle": 0,
@@ -662,10 +662,10 @@
       "roundness": null,
       "seed": 117,
       "version": 2,
-      "versionNonce": 1594958253,
+      "versionNonce": 313203562,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447843133,
+      "updated": 1791448200582,
       "link": null,
       "locked": false,
       "text": "재부팅 뒤 FileVault 잠금 해제나 로그인이 필요할 수 있습니다.",

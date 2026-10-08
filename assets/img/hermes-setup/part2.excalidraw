@@ -6,8 +6,8 @@
     {
       "id": "title",
       "type": "text",
-      "x": -196.68994140625,
-      "y": 1.25,
+      "x": 313.31005859375,
+      "y": 26.25,
       "width": 493.3798828125,
       "height": 37.5,
       "angle": 0,
@@ -24,10 +24,10 @@
       "roundness": null,
       "seed": 100,
       "version": 2,
-      "versionNonce": 1972187117,
+      "versionNonce": 432679914,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "text": "02 · 설치부터 Discord 응답 확인까지",
@@ -43,8 +43,8 @@
     {
       "id": "subtitle",
       "type": "text",
-      "x": -176.88992309570312,
-      "y": 65.75,
+      "x": 333.1100769042969,
+      "y": 83.75,
       "width": 453.77984619140625,
       "height": 22.5,
       "angle": 0,
@@ -61,10 +61,10 @@
       "roundness": null,
       "seed": 101,
       "version": 2,
-      "versionNonce": 1494208867,
+      "versionNonce": 1613651894,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "text": "각 단계에서 연결 상태를 확인하고 다음 단계로 진행합니다.",
@@ -98,10 +98,10 @@
       "roundness": null,
       "seed": 102,
       "version": 2,
-      "versionNonce": 1570417229,
+      "versionNonce": 1211178666,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "points": [
@@ -142,10 +142,10 @@
       "roundness": null,
       "seed": 103,
       "version": 2,
-      "versionNonce": 1584770307,
+      "versionNonce": 1710553334,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "points": [
@@ -186,10 +186,10 @@
       "roundness": null,
       "seed": 104,
       "version": 2,
-      "versionNonce": 784980141,
+      "versionNonce": 1521203562,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "points": [
@@ -230,10 +230,10 @@
       "roundness": null,
       "seed": 105,
       "version": 2,
-      "versionNonce": 1574900899,
+      "versionNonce": 1108765238,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "points": [
@@ -276,7 +276,7 @@
       },
       "seed": 106,
       "version": 2,
-      "versionNonce": 1120156429,
+      "versionNonce": 1619328042,
       "isDeleted": false,
       "boundElements": [
         {
@@ -284,7 +284,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false
     },
@@ -309,10 +309,10 @@
       "roundness": null,
       "seed": 107,
       "version": 2,
-      "versionNonce": 1727694915,
+      "versionNonce": 326611830,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "text": "Hermes 설치\n실행과 버전 확인",
@@ -348,7 +348,7 @@
       },
       "seed": 108,
       "version": 2,
-      "versionNonce": 33771885,
+      "versionNonce": 1202185962,
       "isDeleted": false,
       "boundElements": [
         {
@@ -356,7 +356,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false
     },
@@ -381,10 +381,10 @@
       "roundness": null,
       "seed": 109,
       "version": 2,
-      "versionNonce": 262572003,
+      "versionNonce": 1415435446,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "text": "ChatGPT OAuth 인증\nOpenAI Codex 모델 연결",
@@ -420,7 +420,7 @@
       },
       "seed": 110,
       "version": 2,
-      "versionNonce": 164666317,
+      "versionNonce": 144669098,
       "isDeleted": false,
       "boundElements": [
         {
@@ -428,7 +428,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false
     },
@@ -453,10 +453,10 @@
       "roundness": null,
       "seed": 111,
       "version": 2,
-      "versionNonce": 770806659,
+      "versionNonce": 1852689910,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "text": "Discord 봇 연결\n권한 · 허용 사용자와 채널 설정",
@@ -492,7 +492,7 @@
       },
       "seed": 112,
       "version": 2,
-      "versionNonce": 306551341,
+      "versionNonce": 1385608298,
       "isDeleted": false,
       "boundElements": [
         {
@@ -500,7 +500,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false
     },
@@ -525,10 +525,10 @@
       "roundness": null,
       "seed": 113,
       "version": 2,
-      "versionNonce": 1377446691,
+      "versionNonce": 1319935798,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "text": "Gateway 실행\nDiscord 메시지 수신",
@@ -564,7 +564,7 @@
       },
       "seed": 114,
       "version": 2,
-      "versionNonce": 340511885,
+      "versionNonce": 928552746,
       "isDeleted": false,
       "boundElements": [
         {
@@ -572,7 +572,7 @@
           "type": "text"
         }
       ],
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false
     },
@@ -597,10 +597,10 @@
       "roundness": null,
       "seed": 115,
       "version": 2,
-      "versionNonce": 9359043,
+      "versionNonce": 2038384758,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "text": "채널과 스레드에서 검증\n요청 → 응답 → 작은 로컬 작업",
@@ -616,8 +616,8 @@
     {
       "id": "note0",
       "type": "text",
-      "x": -181.721923828125,
-      "y": 843.75,
+      "x": 318.278076171875,
+      "y": 868.75,
       "width": 483.44384765625,
       "height": 22.5,
       "angle": 0,
@@ -634,10 +634,10 @@
       "roundness": null,
       "seed": 116,
       "version": 2,
-      "versionNonce": 798798573,
+      "versionNonce": 1464869354,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1791447841344,
+      "updated": 1791448198833,
       "link": null,
       "locked": false,
       "text": "봇 토큰과 OAuth 인증 정보는 공개 글과 캡처에서 제외합니다.",
