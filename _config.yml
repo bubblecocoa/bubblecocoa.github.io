@@ -19,7 +19,7 @@ title: bubblecocoa # the main title
 tagline: 기술 블로그
 
 description: >- # used by seo meta and the atom feed
-  정동원의 개발 기록. 실무의 고민과 개인 프로젝트, 학습과 AI 개발 경험을 기록합니다.
+  서비스 개발과 운영, 기술 학습과 AI 도구 활용 경험을 정리합니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
