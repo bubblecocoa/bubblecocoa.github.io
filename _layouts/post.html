@@ -124,7 +124,15 @@ script_includes:
   {% endif %}
 
   <div class="content">
-    {{ content }}
+    {% assign footnotes_marker = '<div class="footnotes" role="doc-endnotes">' %}
+    {% if content contains footnotes_marker %}
+      {% capture collapsible_footnotes %}<details id="post-footnotes" class="mb-4"><summary class="text-muted">각주·출처 보기</summary>{{ footnotes_marker }}{% endcapture %}
+      {{ content | replace: footnotes_marker, collapsible_footnotes }}
+      </details>
+      <script src="{{ '/assets/js/footnotes-disclosure.js' | relative_url }}" defer></script>
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 
   <div class="post-tail-wrapper text-muted">
