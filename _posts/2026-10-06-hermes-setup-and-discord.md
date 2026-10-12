@@ -22,7 +22,7 @@ description: "Hermes 설치부터 GPT 연결, Discord 봇 설정까지"
 
 이 구성에서 맥북은 Hermes와 도구를 실행합니다. GPT 모델은 외부 서비스에 요청하는 방식으로 사용하며, 맥북에 GPT를 내려받아 실행하는 것은 아닙니다.
 
-## 1. Hermes를 설치합니다
+## 1. Hermes 설치하기
 
 macOS에서는 터미널에서 설치할 수 있습니다. 공식 문서의 POSIX 소스 설치에는 Git, curl, tar, SHA-256 유틸리티가 필요합니다. 빌드 과정에서 컴파일러 등 개발 도구가 필요할 수도 있습니다.[^installation]
 
@@ -45,9 +45,9 @@ hermes --help
 
 `command not found`가 나오면 셸을 다시 열었는지, 설치된 실행 파일의 디렉터리가 `PATH`에 포함되어 있는지 확인합니다. 공식 POSIX 소스 설치의 기본 실행 경로는 `~/.local/bin/hermes`입니다. 설치 방식에 따라 경로는 달라질 수 있습니다.[^installation]
 
-설정 안내는 `hermes setup`으로 다시 열 수 있습니다. 사용법은 `hermes setup --help`로 확인할 수 있습니다.
+설정 안내는 `hermes setup`으로 다시 엽니다. 사용법은 `hermes setup --help`로 확인합니다.
 
-## 2. 사용할 모델을 선택합니다
+## 2. 사용할 모델 선택하기
 
 Hermes는 여러 제공자의 모델을 연결해 사용할 수 있습니다. 다음 명령을 실행하면 제공자와 모델을 선택하는 화면이 열립니다.[^providers]
 
@@ -57,7 +57,7 @@ hermes model
 
 선택지에서 이용할 수 있는 제공자를 고르고, 인증을 마친 뒤 모델을 선택합니다. 구독으로 연결하는 모델이나 API로 사용하는 모델 외에, Ollama·LM Studio·vLLM 등으로 직접 서빙하는 로컬 모델도 연결할 수 있습니다. 로컬 모델은 실행 중인 서버의 주소와 모델을 지정하는 방식입니다.[^providers]
 
-저는 ChatGPT를 구독하고 있어서 제 계정에서 사용할 수 있는 최신 GPT를 선택했습니다. 구독 계정으로 연결하려면 제공자 목록에서 `ChatGPT or Codex Subscription`을 고르고, 화면에 나오는 로그인 안내를 따르면 됩니다.[^providers]
+저는 ChatGPT를 구독하고 있어서 제 계정에서 사용할 수 있는 최신 GPT를 선택했습니다. 구독 계정으로 연결하려면 제공자 목록에서 `ChatGPT or Codex Subscription`을 고르고, 화면의 안내에 따라 로그인합니다.[^providers]
 
 새 모델이 나오면 Hermes에 모델을 바꿔 달라고 요청해서, 제 계정에서 사용할 수 있는 모델로 바꿔 쓰고 있습니다.
 
@@ -70,7 +70,7 @@ hermes config get model.default
 
 제 환경의 제공자 이름은 `openai-codex`입니다. 모델을 바꾼 뒤에는 새 대화에서 응답을 확인할 수 있습니다.[^models]
 
-## 3. 터미널의 Hermes에게 나머지 설정을 맡깁니다
+## 3. 터미널의 Hermes에 나머지 설정 맡기기
 
 설치와 모델 연결을 마친 뒤에는 맥의 터미널에서 Hermes CLI를 실행했습니다.
 
@@ -92,26 +92,26 @@ Discord 연결과 Gateway 설정은 여기서 Hermes에 맡겼습니다. 원하�
 <details class="setup-details" markdown="1">
 <summary>Discord 연결 세부 설정 보기 · 4~7단계</summary>
 
-## 4. Discord 애플리케이션과 봇을 준비합니다
+## 4. Discord 애플리케이션과 봇 준비하기
 
 Discord 연결에는 봇 애플리케이션이 필요합니다. 직접 준비할 경우 [Discord Developer Portal](https://discord.com/developers/applications)에서 `New Application`으로 애플리케이션을 만듭니다. 애플리케이션의 `Bot` 페이지에서 봇 계정과 인증 설정을 확인합니다.[^discord]
 
-개인용 봇이라면 `Public Bot`을 끄고 수동 초대 URL을 사용하는 경로도 있습니다. 공식 문서가 권장하는 `Installation` 탭의 Discord 제공 링크를 사용하려면 `Public Bot`을 켜야 합니다. 어느 경로든 `Require OAuth2 Code Grant`는 꺼 두도록 안내합니다.[^discord]
+개인용 봇이라면 `Public Bot`을 끄고 수동 초대 URL을 사용하는 경로도 있습니다. 공식 문서가 권장하는 `Installation` 탭의 Discord 제공 링크를 사용하려면 `Public Bot`을 켜야 합니다. 어느 경로든 `Require OAuth2 Code Grant`는 꺼 둡니다.[^discord]
 
-`Privileged Gateway Intents`에서는 공식 Hermes 문서에 따라 다음 항목을 켜고 저장합니다.
+`Privileged Gateway Intents`에서는 다음 항목을 켜고 저장합니다.
 
 - `Server Members Intent`
 - `Message Content Intent`
 
 `Message Content Intent`는 메시지를 읽는 데 필요합니다. `Server Members Intent`는 사용자명이나 역할로 허용 대상을 지정할 때 필요하며, 숫자 사용자 ID만 쓰는 구성과는 조건이 다릅니다.[^discord]
 
-권한과 Intent는 별개입니다. 채널에서 메시지를 보낼 권한이 있어도, 필요한 Intent가 꺼져 있으면 연결이나 메시지 처리가 정상적으로 되지 않을 수 있습니다. 특히 Hermes 문서는 `Message Content Intent`가 꺼지면 Discord가 연결을 거부한다고 안내합니다.[^discord]
+권한과 Intent는 별개입니다. 채널에서 메시지를 보낼 권한이 있어도, 필요한 Intent가 꺼져 있으면 연결이나 메시지 처리가 정상적으로 되지 않을 수 있습니다. Hermes 문서에서는 특히 `Message Content Intent`가 꺼지면 Discord가 연결을 거부한다고 설명합니다.[^discord]
 
 `Bot` 페이지에서 토큰을 발급받아 안전하게 보관합니다. 기존 봇의 토큰을 재발급하면 기존 토큰으로 실행하던 연결도 영향을 받으므로, 단순히 설정을 확인하려고 초기화하지는 않습니다.
 
 토큰은 봇 로그인에 쓰이므로 채팅이나 화면 캡처, 블로그 저장소에 노출하지 않습니다.
 
-## 5. 필요한 권한으로 서버에 초대합니다
+## 5. 필요한 권한으로 서버에 초대하기
 
 Discord의 `Installation` 탭을 사용하는 경우 `Guild Install`을 활성화하고, scope에 `bot`과 `applications.commands`를 선택합니다. 봇을 초대하려면 대상 서버에서 `Manage Server` 권한이 필요합니다.[^discord]
 
@@ -129,7 +129,7 @@ Discord의 `Installation` 탭을 사용하는 경우 `Guild Install`을 활성�
 
 초대 후 서버 구성원 목록에 봇이 보여도, Gateway를 실행하기 전에는 오프라인으로 보일 수 있습니다. 채널과 카테고리의 권한 덮어쓰기도 확인해, 봇이 사용할 테스트 채널만 볼 수 있도록 범위를 줄입니다.
 
-## 6. Gateway에 연결하고 사용할 사람을 제한합니다
+## 6. Gateway 연결과 사용자 제한
 
 직접 Gateway를 설정하려면 다음 명령으로 설정 안내를 엽니다.
 
@@ -137,7 +137,7 @@ Discord의 `Installation` 탭을 사용하는 경우 `Guild Install`을 활성�
 hermes gateway setup
 ```
 
-`Discord`를 선택하고 토큰을 입력합니다. 문서에 따르면 마법사는 Discord에 토큰을 확인하고, 필요한 Intent를 점검하며, 서버 초대 링크와 봇 소유자의 허용 목록 등록을 안내합니다.[^discord]
+`Discord`를 선택하고 토큰을 입력합니다. 마법사는 Discord에 토큰을 확인하고, 필요한 Intent를 점검하며, 서버 초대 링크와 봇 소유자의 허용 목록 등록을 안내합니다.[^discord]
 
 처음에는 본인만 허용합니다. 허용 사용자 정보는 `DISCORD_ALLOWED_USERS`로 관리할 수 있으며, Discord 사용자 ID를 쓰면 표시 이름이나 서버 닉네임과 혼동하지 않습니다. 직접 ID를 확인하려면 Discord의 `Settings → Advanced → Developer Mode`를 켜고 본인 프로필에서 `Copy User ID`를 선택합니다.[^discord]
 
@@ -158,7 +158,7 @@ hermes gateway setup
 
 요청이 거부된다고 `DISCORD_ALLOW_ALL_USERS`나 `GATEWAY_ALLOW_ALL_USERS`를 켜기보다는, 허용 목록에 사용자 ID가 제대로 등록되어 있는지 먼저 확인합니다.[^discord]
 
-### 채널 범위도 별도로 좁힙니다
+### 응답할 채널 범위 제한하기
 
 허용 사용자와 봇이 응답할 채널은 서로 다른 설정입니다. 채널 ID도 Developer Mode에서 복사할 수 있습니다. 구조화된 설정은 직접 YAML을 편집하는 대신 `hermes config set`으로 변경할 수 있습니다.[^models][^discord]
 
@@ -174,7 +174,7 @@ hermes config set discord.auto_thread true
 
 `DISCORD_ALLOWED_CHANNELS`처럼 같은 기능의 환경변수가 이미 설정되어 있으면 `config.yaml`보다 우선합니다. 파일의 값만 바꿨는데 반영되지 않는다면, 같은 항목의 환경변수 설정이 있는지도 확인합니다.[^discord]
 
-## 7. 채널과 스레드에서 응답을 확인합니다
+## 7. 채널과 스레드의 응답 확인하기
 
 Gateway를 서비스로 실행하고 있지 않다면 다음 명령으로 터미널에서 실행할 수 있습니다.
 
@@ -210,7 +210,7 @@ Gateway는 터미널에서 계속 실행되며 `Ctrl+C`로 종료할 수 있습�
 
 </details>
 
-Discord에서 응답을 받으면 맥북 앞에 앉지 않고도 Hermes에 작업을 요청할 수 있습니다. 이것으로 설치와 Discord 연결 과정은 마칩니다. 맥북을 계속 켜 두고 사용하기 위한 서비스와 전원 설정은 부록에 정리했습니다.
+Discord에서 응답을 받으면 맥북 앞에 앉지 않고도 Hermes에 작업을 요청할 수 있습니다. 맥북을 계속 켜 두고 사용하기 위한 서비스와 전원 설정은 부록에 정리했습니다.
 
 ## 이 시리즈의 다른 글
 
