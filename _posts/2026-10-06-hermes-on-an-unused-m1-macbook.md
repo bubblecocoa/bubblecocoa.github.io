@@ -40,19 +40,15 @@ GPT를 맥북에 내려받아 실행하는 구성은 아닙니다. 모델은 외
 
 ## 주요 모델로 GPT를 선택한 이유
 
-주요 모델을 고를 때는 이미 쓰고 있는 구독을 연결할 수 있는지가 중요했습니다.
+Hermes를 조사나 글쓰기, 개발처럼 여러 용도로 함께 쓸 생각이었습니다. 특정 작업 하나에 맞추기보다는 두루 활용하기에 GPT가 좋겠다고 생각해 주요 모델로 선택했습니다.
 
-Claude를 주요 모델로 선택하지 않은 이유는 Anthropic의 구독 사용 정책 때문입니다. Hermes 공식 문서에 따르면 Claude Max의 OAuth 연결은 추가 사용 크레딧을 소비하며, 기본 구독에 포함된 사용 한도를 쓰지 않습니다. Claude Pro는 해당 OAuth 경로를 지원하지 않습니다. API 키로 연결할 경우에도 구독과 별도로 사용량에 따라 과금됩니다.[^providers][^claude-login]
+구독 연결이 공식 문서에 안내돼 있다는 점도 선택에 영향을 줬습니다. Hermes는 ChatGPT 구독의 OAuth 인증으로 OpenAI Codex 모델을 연결할 수 있고, 저도 이미 쓰던 구독을 이 방식으로 연결했습니다. 별도 API 키를 발급받지 않고 시작할 수 있었습니다.[^providers][^codex-auth]
 
-Claude를 Hermes의 주요 모델로 직접 연결하려면 추가 사용 크레딧이나 별도 API 과금이 필요해, 저는 GPT를 선택했습니다.[^providers]
+Claude나 Gemini 구독을 쓰는 경우에도 플러그인이나 SDK를 활용해 Hermes의 판단 모델로 연결하는 방법이 있습니다. Claude는 Claude Code와 Claude Agent SDK를 이용하는 `claude-subscription-directsdk` 플러그인이 한 예입니다. Claude가 판단하고, 작업의 흐름과 도구 실행은 Hermes가 맡습니다.[^claude-provider-plugin]
 
-Hermes에서 Claude Code CLI를 사용하는 skill도 제공합니다. 공식 Claude Code를 tmux 세션이나 `-p` 옵션으로 실행하는 방식입니다.[^claude-code-skill] Claude Code에 구독 계정으로 로그인해서 쓰는 것과 Hermes의 주요 모델로 Claude를 직접 연결하는 것은 별개입니다.[^claude-compliance]
+Gemini는 Google Antigravity의 `agy` CLI를 연결하는 `antigravity-agy` 커뮤니티 플러그인이 있습니다. 저도 별도로 구성한 조사 담당 에이전트에 이 방식으로 Gemini를 연결해 두었습니다. Gemini에게 조사 결과만 받아오는 별도 도구를 붙인 것이 아니라, Hermes 안에서 판단할 모델을 Gemini로 설정한 구성입니다.[^gemini-provider-plugin]
 
-Hermes는 ChatGPT 구독의 OAuth 인증으로 OpenAI Codex 모델을 연결할 수 있습니다.[^providers][^codex-auth] 저도 이 방식으로 연결했습니다. 별도 API 키를 발급받지 않고 구독 계정으로 연결할 수 있다는 점이 선택 이유였습니다.
-
-OpenClaw 공식 문서에서도 OpenAI가 OpenClaw 같은 외부 도구와 워크플로에서 구독 OAuth 사용을 지원한다고 설명합니다.[^openclaw-auth]
-
-OpenClaw 제작자 Peter Steinberger는 OpenAI 합류를 발표하기도 했습니다.[^openclaw-founder]
+다만 플러그인을 통한 기술적 연결과 모델 제공 업체의 공식 지원은 다릅니다. 지원 요금제와 이용 조건도 연결 방식마다 확인해야 합니다.[^claude-compliance][^antigravity-policy]
 
 ## 여러 메신저 중 Discord를 선택한 이유
 
@@ -104,9 +100,9 @@ Android 개발 환경은 다른 운영체제에도 구성할 수 있지만, iOS 
 - [Discord 연결 안내](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord/){: target="_blank" rel="noopener noreferrer" }
 
 [^providers]: [Hermes Agent — LLM and Model Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers){: target="_blank" rel="noopener noreferrer" }
-[^claude-login]: [Claude — Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account){: target="_blank" rel="noopener noreferrer" }
+[^claude-provider-plugin]: [Nous Research — Claude Subscription DirectSDK](https://github.com/NousResearch/hermes-official-plugins/tree/main/claude-subscription-directsdk){: target="_blank" rel="noopener noreferrer" }
 [^claude-compliance]: [Claude Code — Legal and compliance](https://code.claude.com/docs/en/legal-and-compliance){: target="_blank" rel="noopener noreferrer" }
 [^codex-auth]: [OpenAI Codex — Authentication](https://developers.openai.com/codex/auth){: target="_blank" rel="noopener noreferrer" }
-[^openclaw-auth]: [OpenClaw — OpenAI provider](https://github.com/openclaw/openclaw/blob/main/docs/providers/openai.md){: target="_blank" rel="noopener noreferrer" }
-[^openclaw-founder]: [Peter Steinberger — OpenClaw](https://steipete.me/posts/2026/openclaw){: target="_blank" rel="noopener noreferrer" }
-[^claude-code-skill]: [Hermes — Claude Code skill](https://raw.githubusercontent.com/NousResearch/hermes-agent/main/skills/autonomous-ai-agents/claude-code/SKILL.md){: target="_blank" rel="noopener noreferrer" }
+
+[^gemini-provider-plugin]: [antigravity-agy — Google Antigravity subscription provider for Hermes Agent](https://github.com/Realtyxxx/hermes-plugin-antigravity-agy){: target="_blank" rel="noopener noreferrer" } — Google이나 Nous Research의 공식 플러그인이 아닌 커뮤니티 프로젝트입니다. 현재 공개 저장소는 보관(archived) 상태입니다.
+[^antigravity-policy]: [Google Antigravity — FAQ](https://antigravity.google/docs/faq){: target="_blank" rel="noopener noreferrer" } — Google은 제삼자 도구를 통한 Antigravity 접근을 약관 위반으로 명시하며, 소비자 요금제에서 `agy` CLI를 다른 에이전트로 감싸는 방식도 지원하지 않는다고 설명합니다. 연결 동작을 확인했다는 것이 이 사용 방식의 공식 승인을 뜻하지는 않습니다.
